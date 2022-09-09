@@ -3,7 +3,7 @@ test_square (__main__.TestExercice) ... ok
 test_square_root (__main__.TestExercice) ... ok
 test_to_celsius (__main__.TestExercice) ... ok
 test_to_degrees (__main__.TestExercice) ... FAIL
-test_to_farenheit (__main__.TestExercice) ... FAIL
+test_to_farenheit (__main__.TestExercice) ... ok
 test_to_radians (__main__.TestExercice) ... ok
 
 ======================================================================
@@ -27,22 +27,7 @@ First differing element 0:
 +  (257.74504364071475, -15.297381557114704, 44.031235481811564),
 +  (213.95544569810457, -2.673258113725865, 23.057550624127998)] : Mauvais calcul de radians -> degres
 
-======================================================================
-FAIL: test_to_farenheit (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 107, in test_to_farenheit
-    self.assertListEqual(
-AssertionError: Lists differ: [(0, 40), (-25, 40), (451, 40)] != [32.0, -13.0, 843.8000000000001]
-
-First differing element 0:
-(0, 40)
-32.0
-
-- [(0, 40), (-25, 40), (451, 40)]
-+ [32.0, -13.0, 843.8000000000001] : Mauvais calcul de celsius -> farenheit
-
 ----------------------------------------------------------------------
 Ran 7 tests in 0.001s
 
-FAILED (failures=2)
+FAILED (failures=1)
